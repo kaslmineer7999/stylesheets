@@ -1,0 +1,30 @@
+/*
+   simple-dark.css by kaslmineer7999
+   
+   GitHub:  http://github.com/kaslmineer7999/
+   YouTube: http://www.youtube.com/@kaslmineer7999/featured/
+   CodePen: http://codepen.io/kaslmineer7999/
+*/
+
+html{margin:1rem;}
+body{
+	font-family:system-ui;
+	background-color:black;
+	color:white;
+}
+code{
+	display:inline-block;
+	background-color:#333333;
+	font-family:monospace;
+	padding:0.3rem;
+}
+pre > code{
+	display:block;
+	color:white;
+	padding:0;
+	padding-bottom:1rem;
+	padding-top:1rem;
+	padding-left:1rem;
+}
+blockquote:before{content:open-quote;}
+blockquote:after{content:close-quote;}

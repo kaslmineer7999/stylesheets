@@ -1,0 +1,37 @@
+/*
+   LavaHighlight.css by kaslmineer7999
+   
+   GitHub:  http://github.com/kaslmineer7999/
+   YouTube: http://www.youtube.com/@kaslmineer7999/featured/
+   CodePen: http://codepen.io/kaslmineer7999/
+*/
+
+html{margin:1rem;}
+body{
+	background-color:#1c1c1c;
+	color:white;
+	font-family:serif;
+}
+button{transition-duration:250ms;}
+input,textarea,button,th,td,h1,h2,h3,h4,h5,h6,p,blockquote,code,pre,li
+{transition-duration:500ms;}
+input:hover,textarea:hover,button:hover,th:hover,td:hover
+{background-color:#ab2c2c;}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover,p:hover,blockquote:hover,
+code:hover,pre:hover,li:hover{color:#ab2c2c;}
+code{
+        display:inline-block;
+        color:white;
+        background-color:#333333;
+        font-family:monospace;
+        padding:0.3rem;
+}
+pre > code{
+        display:block;
+        padding:0;
+        padding-bottom:1rem;
+        padding-top:1rem;
+        padding-left:1rem;
+}
+blockquote:before{content:open-quote;}
+blockquote:after{content:close-quote;}
